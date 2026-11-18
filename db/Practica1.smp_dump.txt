@@ -1,0 +1,34 @@
+
+State Machine - |Practica1|estado
+Name estado.LEER_Z_ALTA estado.DIRECCION_Z_ALTA estado.LEER_Z_BAJA estado.DIRECCION_Z_BAJA estado.LEER_Y_ALTA estado.DIRECCION_Y_ALTA estado.LEER_Y_BAJA estado.DIRECCION_Y_BAJA estado.LEER_X_ALTA estado.DIRECCION_X_ALTA estado.LEER_X_BAJA estado.DIRECCION_X_BAJA estado.ESPERA_INICIAL 
+estado.ESPERA_INICIAL 0 0 0 0 0 0 0 0 0 0 0 0 0 
+estado.DIRECCION_X_BAJA 0 0 0 0 0 0 0 0 0 0 0 1 1 
+estado.LEER_X_BAJA 0 0 0 0 0 0 0 0 0 0 1 0 1 
+estado.DIRECCION_X_ALTA 0 0 0 0 0 0 0 0 0 1 0 0 1 
+estado.LEER_X_ALTA 0 0 0 0 0 0 0 0 1 0 0 0 1 
+estado.DIRECCION_Y_BAJA 0 0 0 0 0 0 0 1 0 0 0 0 1 
+estado.LEER_Y_BAJA 0 0 0 0 0 0 1 0 0 0 0 0 1 
+estado.DIRECCION_Y_ALTA 0 0 0 0 0 1 0 0 0 0 0 0 1 
+estado.LEER_Y_ALTA 0 0 0 0 1 0 0 0 0 0 0 0 1 
+estado.DIRECCION_Z_BAJA 0 0 0 1 0 0 0 0 0 0 0 0 1 
+estado.LEER_Z_BAJA 0 0 1 0 0 0 0 0 0 0 0 0 1 
+estado.DIRECCION_Z_ALTA 0 1 0 0 0 0 0 0 0 0 0 0 1 
+estado.LEER_Z_ALTA 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |Practica1|accel_spi:controlador|accel_spi_accelerometer_spi_0:accelerometer_spi_0|s_serial_transfer
+Name s_serial_transfer.STATE_6_POST_READ s_serial_transfer.STATE_5_READ_TRANSFER s_serial_transfer.STATE_4_PRE_READ s_serial_transfer.STATE_3_POST_WRITE s_serial_transfer.STATE_2_WRITE_TRANSFER s_serial_transfer.STATE_1_PRE_WRITE s_serial_transfer.STATE_0_IDLE 
+s_serial_transfer.STATE_0_IDLE 0 0 0 0 0 0 0 
+s_serial_transfer.STATE_1_PRE_WRITE 0 0 0 0 0 1 1 
+s_serial_transfer.STATE_2_WRITE_TRANSFER 0 0 0 0 1 0 1 
+s_serial_transfer.STATE_3_POST_WRITE 0 0 0 1 0 0 1 
+s_serial_transfer.STATE_4_PRE_READ 0 0 1 0 0 0 1 
+s_serial_transfer.STATE_5_READ_TRANSFER 0 1 0 0 0 0 1 
+s_serial_transfer.STATE_6_POST_READ 1 0 0 0 0 0 1 
+
+State Machine - |Practica1|accel_spi:controlador|accel_spi_accelerometer_spi_0:accelerometer_spi_0|altera_up_accelerometer_spi_serial_bus_controller:Serial_Bus_Controller|s_serial_protocol
+Name s_serial_protocol.STATE_3_TRANSFER s_serial_protocol.STATE_2_START_BIT s_serial_protocol.STATE_1_INITIALIZE s_serial_protocol.STATE_0_IDLE s_serial_protocol.STATE_4_STOP_BIT 
+s_serial_protocol.STATE_0_IDLE 0 0 0 0 0 
+s_serial_protocol.STATE_1_INITIALIZE 0 0 1 1 0 
+s_serial_protocol.STATE_2_START_BIT 0 1 0 1 0 
+s_serial_protocol.STATE_3_TRANSFER 1 0 0 1 0 
+s_serial_protocol.STATE_4_STOP_BIT 0 0 0 1 1 
