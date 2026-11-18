@@ -1,0 +1,32 @@
+Quartus Prime Archive log --	D:/downloads1/Practica1/Practica1_tmp_archive.qarlog
+
+Archive:	D:/downloads1/Practica1/Practica1_tmp_archive.qar
+Date:		Wed Nov 18 13:21:06 2026
+Quartus Prime		25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+
+	=========== Files Selected: ===========
+D:/downloads1/Practica1/Practica1.qpf
+D:/downloads1/Practica1/Practica1.qsf
+D:/downloads1/Practica1/Practica1.vhd
+D:/downloads1/Practica1/accel_spi.qsys
+D:/downloads1/Practica1/accel_spi.sopcinfo
+D:/downloads1/Practica1/accel_spi/accel_spi.cmp
+D:/downloads1/Practica1/accel_spi/synthesis/accel_spi.debuginfo
+D:/downloads1/Practica1/accel_spi/synthesis/accel_spi.qip
+D:/downloads1/Practica1/accel_spi/synthesis/accel_spi.vhd
+D:/downloads1/Practica1/accel_spi/synthesis/submodules/accel_spi_accelerometer_spi_0.v
+D:/downloads1/Practica1/accel_spi/synthesis/submodules/altera_up_accelerometer_spi_auto_init.v
+D:/downloads1/Practica1/accel_spi/synthesis/submodules/altera_up_accelerometer_spi_auto_init_ctrl.v
+D:/downloads1/Practica1/accel_spi/synthesis/submodules/altera_up_accelerometer_spi_serial_bus_controller.v
+D:/downloads1/Practica1/accel_spi/synthesis/submodules/altera_up_accelerometer_spi_slow_clock_generator.v
+d:/alteralite/quartus/bin64/assignment_defaults.qdf
+	======= Total: 15 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Nov 18 13:21:08 2026
+Source archive file:	D:/downloads1/Practica1/Practica1_tmp_archive.qar
+Archive was extracted into	D:/downloads1/Practica1_copy/
+		 - successfully.
